@@ -3,29 +3,45 @@
     padding:0;
 }
 
-header{
-  background-color:orange;
-  height:70px;
-  width:100vw;
-}
-nav{
-    height:100px;
-    width:100vw;
-    border: 1px solid black;
-    padding:8px;
-    color:green;
-    
-    
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #FF9933; /* Saffron color */
 }
 
-#logo{
-    height:40px;
-    width:40px;
-    border:6px solid black;
-    border-radius: 30px;
+#logo {
+  height: 50px;
+  width: 50px;
+  border: 6px solid #0000ff; /* Blue color for Ashoka Chakra */
+  border-radius: 50%;
 }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav li a {
+  color: #138808; /* Green color */
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #ffffff; /* White color */
+}
+
+
 
 #pic{
-  height:600px;
-  width:700px;
+  height:200px;
+  width:200px;
 }
