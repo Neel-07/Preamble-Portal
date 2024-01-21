@@ -71,10 +71,7 @@ nav li a:hover {
 #search-icon {
   height: 40px;
   width: 40px;
-  position: absolute;
-  right: 10px;
-  top: 10%;
-  transform: translateY(-50%);
+  
 }
 
 p {
